@@ -28,7 +28,7 @@ function showAnimal(animal) {
   votesEl.textContent = animal.votes;
 }
 
-// Vote button
+
 voteBtn.addEventListener("click", () => {
   if (!currentAnimal) return;
   currentAnimal.votes--;
