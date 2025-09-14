@@ -9,8 +9,8 @@ const animals = [
   },
   {
     id: 2,
-    name: "Spot",
-    image: "https://place-puppy.com/200x200",
+    name: "Chameleon",
+    image: "https://img.freepik.com/free-photo/animal-lizard-nature-multi-colored-close-up-generative-ai_188544-9072.jpg?semt=ais_incoming&w=740&q=80",
     votes: 0
   },
   {
@@ -56,3 +56,7 @@ resetBtn.addEventListener("click", () => {
   currentAnimal.votes = 0;
   votesEl.textContent = 0;
 });
+
+
+
+
