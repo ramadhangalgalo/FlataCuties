@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flatacuties 🐾</title>
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatacuties Vote For The Cutest Animal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Flatacuties 🐾</h1>
-
-  <div id="animal-list" class="list"></div>
-
-  <div id="animal-details" class="details">
-    <h2 id="name"></h2>
-    <img id="image" src="" alt="Animal">
-    <p>Votes: <span id="votes">0</span></p>
-    <button id="vote-btn">Vote</button>
-    <button id="reset-btn">Reset Votes</button>
-  </div>
-
-  <script src="script.js"></script>
+<h1>Vote The Cutest Animal!</h1>
+<ul id="animal_list"></ul>
+<div id="selected_animal">
+  <h3 id="animal_name"></h3>
+  <img id="animal_image" src="" alt="" width="150" />
+  <p>Total Number Of Votes For This Animal: <span id="animal_votes"></span></p>
+  <button id="vote_btn">Vote Animal</button>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
-
